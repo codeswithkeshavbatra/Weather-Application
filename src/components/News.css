@@ -1,0 +1,86 @@
+.News nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    background-color: lightcyan;
+}
+
+.News .category {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.News nav  button {
+    height: 38px;
+    width: 70px;
+    background-color: #0000ff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.News .searchbar input {
+    width: 250px;
+    text-decoration: none;
+    padding: 9px;
+    border: none;
+}
+
+.News .category button {
+    height: 38px;
+    width: 120px;
+    background-color: #f08080;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:780px) and (min-width:220px){
+    .News nav {
+        width: 100%;
+    }
+
+    .News nav button {
+        height: 25px;
+        width: 55px;
+        font-size: 12px;
+    }
+
+    .News nav h1 {
+        font-size: medium;
+    }
+
+    .News .searchbar input {
+        width: 100px;
+        height: 25px;
+    }
+
+    .searchbar {
+        gap: 7px;
+    }
+}
+
+@media screen and (max-width:510px) and (min-width:220px) {
+    .News .category button {
+        height: 24px;
+        width: 100px;
+        border-radius: 4px;
+        font-size: 12px;
+        gap: 5px;
+        
+    }
+
+}
